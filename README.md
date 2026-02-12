@@ -19,8 +19,6 @@ It produces clear:
 - Risk scores (0–100)  
 - Personalized investment portfolios  
 
----
-
 ## Problem Statement
 
 Financial markets are influenced by:
@@ -36,7 +34,6 @@ Retail investors often rely on fragmented information or opinion-based advice.
 
 This project builds a structured AI framework that integrates multiple financial signals into a unified, explainable decision system.
 
----
 
 ## How the System Works (Simple Explanation)
 
@@ -52,7 +49,6 @@ Analyzes stock price trends using technical indicators like:
 
 It also performs multi-horizon forecasting using XGBoost.
 
----
 
 ###  Macro Agent
 Evaluates broader economic conditions using:
@@ -66,7 +62,6 @@ Evaluates broader economic conditions using:
 
 This helps understand long-term economic cycles.
 
----
 
 ###  Risk Analysis Agent
 Measures asset risk using:
@@ -77,7 +72,6 @@ Measures asset risk using:
 
 Generates a normalized risk score (0–100).
 
----
 
 ###  Portfolio Recommendation Agent
 Combines all signals using an adaptive weighted scoring model:
@@ -90,7 +84,6 @@ Based on user risk preference, the system generates:
 - Balanced portfolio
 - Aggressive portfolio
 
----
 
 ## Machine Learning Component
 
@@ -102,7 +95,6 @@ Based on user risk preference, the system generates:
 
 Model tuning improved forecast robustness across different market horizons.
 
----
 
 ## Key Features
 
@@ -113,7 +105,6 @@ Model tuning improved forecast robustness across different market horizons.
  Economic + technical signal integration  
  Interactive dashboard built with Streamlit  
 
----
 
 ## Example Outputs
 
@@ -121,7 +112,6 @@ Model tuning improved forecast robustness across different market horizons.
 - Risk score with supporting metrics  
 - Portfolio allocation adjusted by user risk tolerance  
 
----
 
 ## Tech Stack
 
